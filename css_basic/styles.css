@@ -32,3 +32,11 @@ aside {
   	display: block;
   }
 }
+
+span {
+  color: rgb(221, 73, 110);
+}
+
+header {
+  background-color: #eee;
+}
