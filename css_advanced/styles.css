@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+  font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-image: url(./images/background.png);
+  background-position: center;
+  background-size: cover;
+}
+
+nav,
+section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+nav,
+nav ul {
+  display: flex;
+}
+
+nav {
+  justify-content: space-between;
+  padding-top: 48px;
+}
+
+nav ul {
+  list-style-type: none;
+  gap: 70px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav img {
+  height: 36px;
+}
+
+.get-schooled {
+  text-align: center;
+}
+
+.get-schooled h1 {
+  margin-bottom: -36px;
+  padding-top: 210px;
+  font-size: 160px;
+  color: white;
+}
+
+.three-words span {
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+}
+
+span.grin {
+  margin: 0 70px;
+}
+
+.get-schooled button {
+  background-color: mediumorchid;
+  box-shadow: 5px 5px 20px #223;
+  border-radius: 50px;
+  padding: 16px 32px;
+  font-weight: 500;
+  margin-top: 48px;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+
+.learn-from-pros {
+  text-align: center;
+  margin-top: 220px;
+  color: white;
+}
+
+.learn-from-pros h2 {
+  font-size: 46px;
+  font-weight: 300;
+}
+
+span.first-word {
+  color: mediumorchid;
+  font-weight: 600;
+}
+
+.pros {
+  display: flex;
+  justify-content: space-between;
+  padding: 110px 0;
+}
+
+.pro {
+  width: 200px;
+}
+
+.pro img {
+  width: 200px;
+}
+
+.pro h3 {
+  font-size: 24px;
+}
+
+.pro p {
+  font-style: italic;
+  margin-top: -16px;
+  font-size: 18px;
+  padding: 18px;
+}
