@@ -322,3 +322,33 @@ span.free {
 .faq + .faq {
   margin-top: 100px;
 }
+
+footer {
+  background-color: #071629;
+}
+
+.footer-section {
+  width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.footer-section > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.footer-section img {
+  height: 36px;
+}
+
+.footer-section i {
+  color: white;
+}
+
+.footer-section p {
+  color: #ccc;
+  padding-bottom: 46px;
+}
