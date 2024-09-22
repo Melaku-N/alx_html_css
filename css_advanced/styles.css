@@ -64,7 +64,7 @@ span.grin {
   margin: 0 70px;
 }
 
-.get-schooled button {
+.register {
   background-color: #bf6cfa;
   box-shadow: 5px 5px 20px #223;
   border-radius: 50px;
@@ -169,7 +169,6 @@ span.first-word {
 .tutorials {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
 }
 
 .tutorial {
@@ -237,4 +236,55 @@ span.first-word {
 .rate p {
   margin-top: -10px;
   color: #c973f1;
+}
+
+.membership-section {
+  background-color: #071629;
+}
+
+.membership {
+  width: 1440px;
+  color: #ccc;
+  margin: 0 auto;
+  padding: 100px 50px 70px;
+  text-align: center;
+}
+
+.membership h2 {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+span.free {
+  color: #c973f1;
+  font-weight: 600;
+}
+
+.membership button {
+  margin-top: 52px;
+}
+
+.offers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer {
+  padding: 36px;
+}
+
+.offer img {
+  width: 60px;
+  margin-top: 80px;
+}
+
+.offer h3 {
+  color: white;
+  font-size: 22px;
+  margin: 24px 0 18px;
+}
+
+.offer p {
+  font-size: 18px;
+  line-height: 1.7;
 }
