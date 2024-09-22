@@ -288,3 +288,37 @@ span.free {
   font-size: 18px;
   line-height: 1.7;
 }
+
+.faq-section h2 {
+  text-align: center;
+  margin: 110px 0;
+  font-size: 70px;
+  font-weight: 400;
+}
+
+.faqs {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+  margin-bottom: 120px;
+}
+
+.faq {
+  display: flex;
+  gap: 300px;
+}
+
+.faq h3 {
+  font-size: 22px;
+  margin-bottom: 46px;
+  color: black;
+}
+
+.faq div {
+  font-size: 18px;
+  color: #565;
+}
+
+.faq + .faq {
+  margin-top: 100px;
+}
