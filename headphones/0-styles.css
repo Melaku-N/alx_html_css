@@ -32,7 +32,7 @@ nav {
   position: relative;
 }
 
-#menu-toggle {
+.menu-toggle {
   display: none;
 }
 
@@ -172,7 +172,7 @@ nav a:active {
     font-size: 1.075rem;
   }
 
-  #menu-toggle:checked ~ .menu {
+  .menu-toggle:checked ~ .menu {
     display: flex;
     position: absolute;
     top: 5rem;
@@ -182,11 +182,11 @@ nav a:active {
     flex-direction: column;
   }
 
-  #menu-toggle:checked + .hamburger .open {
+  .menu-toggle:checked + .hamburger .open {
     display: none;
   }
 
-  #menu-toggle:checked + .hamburger .close {
+  .menu-toggle:checked + .hamburger .close {
     display: block;
     margin-bottom: 0.375rem;
   }
